@@ -8,7 +8,6 @@ public class Geometria extends JPanel {
     private Rectangulo rectangulo;
 
     public Geometria() {
-        // Define el rectángulo (puedes cambiar los valores según sea necesario)
         Punto punto = new Punto(50, 50);
         rectangulo = new Rectangulo(punto, 200, 100);
     }
